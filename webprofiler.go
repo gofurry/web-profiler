@@ -4,9 +4,9 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/GoFurry/web-profiler/internal/core"
-	"github.com/GoFurry/web-profiler/internal/model"
-	"github.com/GoFurry/web-profiler/internal/policy"
+	"github.com/gofurry/web-profiler/internal/core"
+	"github.com/gofurry/web-profiler/internal/model"
+	"github.com/gofurry/web-profiler/internal/policy"
 )
 
 type (

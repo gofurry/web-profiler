@@ -1,8 +1,8 @@
 package core
 
 import (
-	"github.com/GoFurry/web-profiler/internal/model"
-	"github.com/GoFurry/web-profiler/internal/policy"
+	"github.com/gofurry/web-profiler/internal/model"
+	"github.com/gofurry/web-profiler/internal/policy"
 )
 
 type (

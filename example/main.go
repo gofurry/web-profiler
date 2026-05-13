@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	webprofiler "github.com/GoFurry/web-profiler"
+	webprofiler "github.com/gofurry/web-profiler"
 )
 
 type response struct {

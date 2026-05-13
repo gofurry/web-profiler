@@ -1,7 +1,7 @@
 # web-profiler
 
-[![Last Version](https://img.shields.io/github/release/GoFurry/web-profiler/all.svg?logo=github&color=brightgreen)](https://github.com/GoFurry/web-profiler/releases)
-[![License](https://img.shields.io/github/license/GoFurry/coraza-fiber-lite)](../LICENSE)
+[![Last Version](https://img.shields.io/github/release/gofurry/web-profiler/all.svg?logo=github&color=brightgreen)](https://github.com/gofurry/web-profiler/releases)
+[![License](https://img.shields.io/github/license/gofurry/coraza-fiber-lite)](../LICENSE)
 [![Go Version](https://img.shields.io/badge/go-%3E%3D1.26-blue)](../go.mod)
 
 **中文文档 | [English](../README.md) | [Benchmark Baseline](benchmark_baseline.md)**
@@ -26,7 +26,7 @@
 ## 安装
 
 ```bash
-go get github.com/GoFurry/web-profiler
+go get github.com/gofurry/web-profiler
 ```
 
 ## 🚀 快速开始
@@ -38,7 +38,7 @@ import (
 	"log"
 	"net/http"
 
-	webprofiler "github.com/GoFurry/web-profiler"
+	webprofiler "github.com/gofurry/web-profiler"
 )
 
 func main() {
@@ -128,7 +128,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	webprofiler "github.com/GoFurry/web-profiler"
+	webprofiler "github.com/gofurry/web-profiler"
 )
 
 func main() {

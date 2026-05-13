@@ -9,7 +9,7 @@ It is intended as a reference point for future changes, not as a universal promi
 - OS: `windows`
 - Arch: `amd64`
 - CPU: `AMD Ryzen 7 5800H with Radeon Graphics`
-- Go package: `github.com/GoFurry/web-profiler/internal/core`
+- Go package: `github.com/gofurry/web-profiler/internal/core`
 
 ## Commands
 

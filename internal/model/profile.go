@@ -3,7 +3,7 @@ package model
 import (
 	"time"
 
-	"github.com/GoFurry/web-profiler/internal/policy"
+	"github.com/gofurry/web-profiler/internal/policy"
 )
 
 type SampleStrategy = policy.SampleStrategy

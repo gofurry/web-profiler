@@ -1,9 +1,9 @@
 # web-profiler
 
-[![Last Version](https://img.shields.io/github/release/GoFurry/web-profiler/all.svg?logo=github&color=brightgreen)](https://github.com/GoFurry/web-profiler/releases)
-[![License](https://img.shields.io/github/license/GoFurry/coraza-fiber-lite)](LICENSE)
+[![Last Version](https://img.shields.io/github/release/gofurry/web-profiler/all.svg?logo=github&color=brightgreen)](https://github.com/gofurry/web-profiler/releases)
+[![License](https://img.shields.io/github/license/gofurry/coraza-fiber-lite)](LICENSE)
 [![Go Version](https://img.shields.io/badge/go-%3E%3D1.26-blue)](go.mod)
-[![Go Report Card](https://goreportcard.com/badge/github.com/GoFurry/web-profiler)](https://goreportcard.com/report/github.com/GoFurry/web-profiler)
+[![Go Report Card](https://goreportcard.com/badge/github.com/gofurry/web-profiler)](https://goreportcard.com/report/github.com/gofurry/web-profiler)
 
 **[中文文档](docs/README_zh.md) | English | [Benchmark Baseline](docs/benchmark_baseline.md)**
 
@@ -27,7 +27,7 @@ It is designed as request-analysis infrastructure, not as a security decision en
 ## Installation
 
 ```bash
-go get github.com/GoFurry/web-profiler
+go get github.com/gofurry/web-profiler
 ```
 
 ## 🚀 Quick Start
@@ -39,7 +39,7 @@ import (
 	"log"
 	"net/http"
 
-	webprofiler "github.com/GoFurry/web-profiler"
+	webprofiler "github.com/gofurry/web-profiler"
 )
 
 func main() {
@@ -129,7 +129,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	webprofiler "github.com/GoFurry/web-profiler"
+	webprofiler "github.com/gofurry/web-profiler"
 )
 
 func main() {
